@@ -13,7 +13,7 @@ end
 gem 'execjs',  :platforms => :ruby
 gem 'therubyracer', '0.10.2', :platforms => :ruby
 gem 'spree', :git => 'git://github.com/spree/spree.git'
-
+gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'	
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
