@@ -51,6 +51,13 @@ GIT
       devise-encryptable (= 0.1.1)
       spree_core
 
+GIT
+  remote: git://github.com/spree/spree_reviews.git
+  revision: 2ca1ef2fc1566b75e1c8802c7d7e357617232492
+  specs:
+    spree_reviews (1.0.0)
+      spree_core (~> 2.0.0.beta)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -244,6 +251,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
+  spree_reviews!
   sqlite3
   therubyracer (= 0.10.2)
   uglifier (>= 1.0.3)
