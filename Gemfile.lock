@@ -52,6 +52,14 @@ GIT
       spree_core
 
 GIT
+  remote: git://github.com/spree/spree_comments.git
+  revision: 91cd4c22fcecb177c1360e4a07e98665bc223612
+  specs:
+    spree_comments (1.0.1)
+      acts_as_commentable (= 3.0.1)
+      spree_core (>= 0.70.0)
+
+GIT
   remote: git://github.com/spree/spree_reviews.git
   revision: 2ca1ef2fc1566b75e1c8802c7d7e357617232492
   specs:
@@ -99,6 +107,7 @@ GEM
     activesupport (3.2.11)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    acts_as_commentable (3.0.1)
     acts_as_list (0.1.4)
     arel (3.0.2)
     awesome_nested_set (2.1.5)
@@ -251,6 +260,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
+  spree_comments!
   spree_reviews!
   sqlite3
   therubyracer (= 0.10.2)
