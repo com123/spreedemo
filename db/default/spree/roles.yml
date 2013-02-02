@@ -1,0 +1,11 @@
+admin_role:
+  name: admin
+
+user_role:
+  name: user
+
+representative_role:
+  name: representative
+
+partner_role:
+  name: partner
