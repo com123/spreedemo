@@ -36,7 +36,8 @@ module Spree
       elsif user.respond_to?(:has_spree_role?) && user.has_spree_role?('representative')
         can :manage, :all
       elsif user.respond_to?(:has_spree_role?) && user.has_spree_role?('partner')
-        can :manage, :all
+	 can :manage, :all
+	 cannot :manage, [Product,User]
       else
         #############################
         can :read, Spree.user_class do |resource|

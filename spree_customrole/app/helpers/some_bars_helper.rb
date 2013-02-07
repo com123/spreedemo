@@ -1,0 +1,2 @@
+module SomeBarsHelper
+end
