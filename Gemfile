@@ -12,7 +12,7 @@ group :development do
 end
 gem 'execjs',  :platforms => :ruby
 gem 'therubyracer', '0.10.2', :platforms => :ruby
-gem 'spree', :path => 'spree'
+gem 'spree',:git => 'git://github.com/spree/spree.git'
 gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'	
 gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git'
 gem "spree_comments",:git => 'git://github.com/spree/spree_comments.git'
