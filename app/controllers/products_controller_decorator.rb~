@@ -1,6 +1,0 @@
-Spree::ProductsController.class_eval do
- before_save :assign_user
-def assign_user
-    
-  end
-end
