@@ -9,7 +9,9 @@
 
 //= require store/spree_core
 //= require store/spree_promo
-
+//= require store/spree_social_products
 //= require_tree .
 //= require jquery.rating
 
+//= require store/spree_customrole
+//= require store/spree_social

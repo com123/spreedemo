@@ -12,10 +12,12 @@ group :development do
 end
 gem 'execjs',  :platforms => :ruby
 gem 'therubyracer', '0.10.2', :platforms => :ruby
-gem 'spree', :git => 'git://github.com/spree/spree.git'
+gem 'spree', :git => 'https://github.com/mahinder/spreemodif.git'
 gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'	
 gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git'
 gem "spree_comments",:git => 'git://github.com/spree/spree_comments.git'
+gem "spree_customrole", :path => "spree_customrole"
+gem "spree_social", :git => "git://github.com/spree/spree_social.git" 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

@@ -1,0 +1,6 @@
+class Addassosiation < ActiveRecord::Migration
+  def change
+    add_column  :spree_products,:partner_id, :integer
+    add_column  :product,:salerepresentative_id, :integer
+  end
+end

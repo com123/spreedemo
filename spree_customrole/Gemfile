@@ -1,0 +1,9 @@
+source 'http://rubygems.org'
+
+# Provides basic authentication functionality for testing parts of your engine
+gem 'spree_auth_devise', :git => "git://github.com/spree/spree_auth_devise"
+gem 'spree', :git => 'git://github.com/spree/spree.git'
+gem 'execjs',  :platforms => :ruby
+gem 'therubyracer', '0.10.2', :platforms => :ruby
+gem 'rspec-rails'
+gemspec
