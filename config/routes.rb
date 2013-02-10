@@ -8,7 +8,7 @@ Spree3::Application.routes.draw do
   mount Spree::Core::Engine, :at => '/'
           # The priority is based upon order of creation:
   # first created -> highest priority.
-
+  get 'custom/assign_persons'
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action

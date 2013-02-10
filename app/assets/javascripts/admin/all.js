@@ -14,3 +14,32 @@
 
 //= require admin/spree_customrole
 //= require admin/spree_social
+
+$(document).ready(function() {
+    $('.assignpartener').change(function() {
+      id =  $(this).val();
+      order_id = $(this).attr('data_order');
+      name = $(this).attr('name'); 
+        $.ajax({
+            url: '/custom/assign_persons',
+            dataType : 'json',
+            type:'get',
+            data: {'id':id,
+		   'order_id':order_id,
+                   'name':name  	},
+            success: function(data, textStatus, jqXHR) {
+                if(data.valid)
+   		{
+		  alert("success")
+			}else{
+		  alert("error") 				
+		}
+            },
+            error : function(jqXHR, textStatus, errorThrown) {
+                alert("ggggggtttt")	
+            }
+        });
+   });
+    
+});
+
