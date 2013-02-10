@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130207052340) do
+ActiveRecord::Schema.define(:version => 20130210122306) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -504,6 +504,17 @@ ActiveRecord::Schema.define(:version => 20130207052340) do
     t.datetime "deleted_at"
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
+  end
+
+  create_table "spree_skrill_transactions", :force => true do |t|
+    t.string   "email"
+    t.float    "amount"
+    t.string   "currency"
+    t.integer  "transaction_id"
+    t.integer  "customer_id"
+    t.string   "payment_type"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
   create_table "spree_state_changes", :force => true do |t|
