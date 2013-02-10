@@ -26,14 +26,14 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_reviews.git
-  revision: 2b7e823211f7f5a43961144f4a2c9b9898d3ec63
+  revision: 7954982eac0304685dd7ad17fca2935323ef6039
   specs:
     spree_reviews (1.0.0)
       spree_core (~> 2.0.0.beta)
 
 GIT
   remote: git://github.com/spree/spree_social.git
-  revision: c784f24ba0bbbf3c0d97055379685b99fb27084d
+  revision: b6131a91c738e757b7949bd1227aef1678681277
   specs:
     spree_social (2.3.0)
       oa-core
@@ -46,7 +46,7 @@ GIT
 
 GIT
   remote: https://github.com/mahinder/spreemodif.git
-  revision: 5cdd2fc01a83d79aeebc6817eb49ef028a5b11ec
+  revision: b545b61d134c356facf0214ea84b82e20c7028cf
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -206,7 +206,7 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.20.1)
+    mime-types (1.21)
     money (5.0.0)
       i18n (~> 0.4)
       json
