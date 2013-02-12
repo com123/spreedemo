@@ -10,11 +10,11 @@ end
 group :development do 
    gem 'sqlite3'
 end
+gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'
 gem 'execjs',  :platforms => :ruby
 gem 'therubyracer', '0.10.2', :platforms => :ruby
 gem 'spree', :git => 'https://github.com/mahinder/spreemodif.git'
 #gem 'spree', :path => '../spree'
-gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise'	
 gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git'
 gem "spree_comments",:git => 'git://github.com/spree/spree_comments.git'
 gem "spree_customrole", :path => "spree_customrole"
@@ -50,4 +50,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-
+gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_sass_theme.git'

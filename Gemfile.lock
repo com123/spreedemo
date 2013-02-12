@@ -9,6 +9,13 @@ GIT
       spree_core
 
 GIT
+  remote: git://github.com/spree/spree_blue_sass_theme.git
+  revision: f813dbdb4e80f603e44cf42366a68cbe8ea2d756
+  specs:
+    spree_blue_theme (0.2.0)
+      sass-rails
+
+GIT
   remote: git://github.com/spree/spree_comments.git
   revision: 44a2d48b6f0cb0877f524ac72ab6a34f91159895
   specs:
@@ -46,7 +53,7 @@ GIT
 
 GIT
   remote: https://github.com/mahinder/spreemodif.git
-  revision: 7d527e46f762db5d7bc465565463ff46c0969e54
+  revision: a7fe0c4beae6a1a03441cd36b5d541c7f9748be5
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -343,6 +350,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
+  spree_blue_theme!
   spree_comments!
   spree_customrole!
   spree_gateway!
