@@ -50,4 +50,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_sass_theme.git'
+
