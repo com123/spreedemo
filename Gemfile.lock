@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/spree/spree_auth_devise
+  remote: git://github.com/spree/spree_auth_devise.git
   revision: 9a60b2869e69caf436012bf0fcd154a101196a33
   specs:
     spree_auth_devise (1.0.0)
@@ -46,7 +46,7 @@ GIT
 
 GIT
   remote: https://github.com/mahinder/spreemodif.git
-  revision: d0af5b9ee56983b1bda4498aade0b31fb78ecbb9
+  revision: e55ac2ccc49697c339c1de41cb4687e48d3cb9d1
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
