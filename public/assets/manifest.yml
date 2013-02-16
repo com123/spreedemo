@@ -1,12 +1,4 @@
 ---
-FontAwesome.otf: FontAwesome-468f83b63df32064983141584a19ff17.otf
-FontAwesome/index.otf: FontAwesome-468f83b63df32064983141584a19ff17.otf
-fontawesome-webfont.eot: fontawesome-webfont-d1a87f253d164f9455111cf8108b946d.eot
-fontawesome-webfont/index.eot: fontawesome-webfont-d1a87f253d164f9455111cf8108b946d.eot
-fontawesome-webfont.ttf: fontawesome-webfont-f6efbd0570bf4cf4fb12122c18bbb1df.ttf
-fontawesome-webfont/index.ttf: fontawesome-webfont-f6efbd0570bf4cf4fb12122c18bbb1df.ttf
-fontawesome-webfont.woff: fontawesome-webfont-a16deda648110d250b072cfdf2ae0f14.woff
-fontawesome-webfont/index.woff: fontawesome-webfont-a16deda648110d250b072cfdf2ae0f14.woff
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 ss.jpg: ss-5e02053bbfbebf612a6cfa28cb9c91e1.jpg
@@ -17,10 +9,10 @@ application.js: application-21a409b668568e8694c35c07fe2c47d6.js
 application/index.js: application-21a409b668568e8694c35c07fe2c47d6.js
 store/all.js: store/all-538f129814722283d5761ea0b2d92d64.js
 store/all/index.js: store/all-538f129814722283d5761ea0b2d92d64.js
-admin/all.css: admin/all-72c6cf2a2ba6a1bf93aa3890ae3a3542.css
-admin/all/index.css: admin/all-72c6cf2a2ba6a1bf93aa3890ae3a3542.css
-application.css: application-d171cd409528bb4501413ad0e235424c.css
-application/index.css: application-d171cd409528bb4501413ad0e235424c.css
+admin/all.css: admin/all-a175eba5465e732967337c997c078037.css
+admin/all/index.css: admin/all-a175eba5465e732967337c997c078037.css
+application.css: application-fa6423e0962c2d3538f0bdaf5aee9bc1.css
+application/index.css: application-fa6423e0962c2d3538f0bdaf5aee9bc1.css
 store/all.css: store/all-2b80796991e03461d520e448bba842b5.css
 store/all/index.css: store/all-2b80796991e03461d520e448bba842b5.css
 store/facebook_128.png: store/facebook_128-6d97c166be18321e20ee8c1b5dd155fa.png
@@ -165,8 +157,14 @@ admin/images/new.js: admin/images/new-b11dfe8e32c0a4d3267c607d23a5a1fa.js
 admin/images/new/index.js: admin/images/new-b11dfe8e32c0a4d3267c607d23a5a1fa.js
 admin/orders/edit_form.js: admin/orders/edit_form-0447f909e15c24f1cd8db9d4cf865182.js
 admin/orders/edit_form/index.js: admin/orders/edit_form-0447f909e15c24f1cd8db9d4cf865182.js
+fontawesome-webfont.eot: fontawesome-webfont-86a6da438b901860c3a54e21f9098bf8.eot
+fontawesome-webfont/index.eot: fontawesome-webfont-86a6da438b901860c3a54e21f9098bf8.eot
 fontawesome-webfont.svg: fontawesome-webfont-c3f3594758768fbb43eae746d18b3b50.svg
 fontawesome-webfont/index.svg: fontawesome-webfont-c3f3594758768fbb43eae746d18b3b50.svg
+fontawesome-webfont.ttf: fontawesome-webfont-89ca9bd89cea7c74302ae94f18d4ec3e.ttf
+fontawesome-webfont/index.ttf: fontawesome-webfont-89ca9bd89cea7c74302ae94f18d4ec3e.ttf
+fontawesome-webfont.woff: fontawesome-webfont-8255009c90d86ee3458a13f5db9a6ed0.woff
+fontawesome-webfont/index.woff: fontawesome-webfont-8255009c90d86ee3458a13f5db9a6ed0.woff
 datepicker/cal.gif: datepicker/cal-eab014b80b092f262347ab1ebd0e66b0.gif
 datepicker/cal/index.gif: datepicker/cal-eab014b80b092f262347ab1ebd0e66b0.gif
 flags/ad.png: flags/ad-99ea614d809b6ac2e57eeeec9ab804f9.png

@@ -44,9 +44,8 @@ GIT
       omniauth-twitter
       spree_core (~> 2.0.0.beta)
 
-GIT
-  remote: https://github.com/mahinder/spreemodif.git
-  revision: 143920224740f562e05f0a7298c7b71b814d50cb
+PATH
+  remote: ../spree
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
