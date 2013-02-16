@@ -1,0 +1,5 @@
+Deface::Override.new(:virtual_path => "spree/layouts/admin",
+                     :name => "user_admin_tabs",
+                     :insert_bottom => "[data-hook='admin_tabs'], #admin_tabs[data-hook]",
+                     :text => "<%= tab(:users, :url => spree.admin_users_path, :icon => 'icon-user') if current_user.has_spree_role?('admin')%>",
+                     :disabled => false)
