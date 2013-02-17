@@ -32,19 +32,6 @@ GIT
       spree_core (~> 2.0.0.beta)
 
 GIT
-  remote: git://github.com/spree/spree_social.git
-  revision: bb880747560493daf379b70b0963891a9b031100
-  specs:
-    spree_social (2.3.0)
-      oa-core
-      omniauth
-      omniauth-facebook
-      omniauth-github
-      omniauth-google-oauth2
-      omniauth-twitter
-      spree_core (~> 2.0.0.beta)
-
-GIT
   remote: https://github.com/mahinder/spreemodif.git
   revision: fe57498a908c84ecfc206caa3435fd4160c34564
   specs:
@@ -92,6 +79,18 @@ PATH
   remote: spree_customrole
   specs:
     spree_customrole (2.0.0.beta)
+      spree_core (~> 2.0.0.beta)
+
+PATH
+  remote: spree_social
+  specs:
+    spree_social (2.3.0)
+      oa-core
+      omniauth
+      omniauth-facebook
+      omniauth-github
+      omniauth-google-oauth2
+      omniauth-twitter
       spree_core (~> 2.0.0.beta)
 
 GEM
