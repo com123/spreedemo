@@ -18,7 +18,7 @@ gem 'spree_reviews', :git => 'git://github.com/spree/spree_reviews.git'
 gem "spree_comments",:git => 'git://github.com/spree/spree_comments.git'
 gem "spree_customrole", :path => "spree_customrole"
 #gem "spree_social", :git => "git://github.com/spree/spree_social.git" 
-gem "spree_social", :path => "spree_social"
+gem "spree_social", :git => "git://github.com/mahinder/spree_social.git"
 gem 'spree_gateway', :git => 'git://github.com/spree/spree_gateway.git' 
 #gem "spree_social", :git => "git://github.com/spree/spree_social.git"
 # Gems used only for assets and not required
