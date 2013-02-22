@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+body{
+    background: #fff;
+    font-size: 13px;    
+   color: #777;
+  font-weight: 400;
+
+}
+h4,.brand{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+a.carousel-control{
+  display: none;
+}
+div.carousel{
+  margin-right: 10px;
+}
+.container [class*="span"] {
+  margin-left: 0px;
+}
+.sideblock{
+  margin-bottom: 4px;
+}
+.product-list .span3{
+  margin-right: 8px;
+  height: 200px;
+  background: #fff;
+}
+.product-list .span3 img{
+   width: 200px;
+   display: table;
+   margin: auto;
+}
+.footer{
+  background: #000;
+  text-align: center;
+  padding: 15px 0;
+  margin: 15px 0 0 0;
+  color: #fff;
+  font-size: 11px;
+}
+.product-list .product-caption{
+  position: relative;
+  top: -30px;
+  font-size: 12px;
+  background: #333;
+  background: rgba(0,0,0,0.75);
+  padding: 5px 0px;
+  text-align: center;
+  color:#fff;
+}
+.actions{
+  margin: 10px 0;
+}
+.more-details{
+  margin: 10px 0;
+}
