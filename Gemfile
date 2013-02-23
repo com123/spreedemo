@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.11'
 gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise.git'	
