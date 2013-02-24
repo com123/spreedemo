@@ -44,8 +44,9 @@ GIT
     spree_reviews (1.0.0)
       spree_core (~> 2.0.0.beta)
 
-PATH
-  remote: ../spree
+GIT
+  remote: https://github.com/mahinder/spreemodif.git
+  revision: 19608c7ecd24933976b092eb8cd3c5d3e381aec0
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -94,7 +95,7 @@ PATH
       spree_core (~> 2.0.0.beta)
 
 GEM
-  remote: http://rubygems.org/
+  remote: http://bundler-api.herokuapp.com/
   specs:
     actionmailer (3.2.11)
       actionpack (= 3.2.11)
