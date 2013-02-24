@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*  Page Body
+-----------------------------------------------------------------------------*/
+
+#page-body {
+	border: none;
+	margin: 0em;
+	padding: 0em;
+	min-height: 10em;
+}
+
+
+
+/*  Headings
+-----------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -0.05em;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-size: 1.33em;
+	line-height: 1.125em;
+	margin-bottom: 0.5em;
+}
+
+
+
+/*  Page Featured
+-----------------------------------------------------------------------------*/
+
+/* Row 1 */
+#page-featured-1 {
+	border: #e3e3e3 solid 1px;
+	padding: 1px;
+	height: 376px;
+	margin-bottom: 10px;
+}
+
+#page-featured-1 .controls-container {
+	position: relative; 
+	z-index: 2;
+}
+
+#page-featured-1 .controls {
+	position: absolute; 
+	top: 344px; 
+	left: 846px; 
+	width: 70px; 
+	height: 22px;
+	z-index: 1;
+}
+
+
+/* Row 2 */
+#page-featured-2 {
+	border: #e3e3e3 solid 1px;
+	padding-left: 15px;
+	height: 142px;
+	margin-bottom: 13px;
+	line-height: 1.33em;
+}
+
+#page-featured-2 img {
+	float: left;
+}
+
+#page-featured-2 h2 {
+	margin-top: 1em;
+}
+
+#page-featured-2 .column1 {
+	float: left;
+	width: 290px;
+	margin-right: 15px;
+}
+
+#page-featured-2 .column2 {
+	float: left;
+	width: 290px;
+	margin-right: 15px;
+}
+
+#page-featured-2 .column3 {
+	float: left;
+	width: 290px;
+}
+
+
+/* Row 3 */
+#page-featured-3 {
+	clear: both;
+}
+
+#page-featured-3 h2 {
+	font-size: 1.2em;
+	color: #5c6166;
+}
+
+#page-featured-3 h2 a:link, #page-featured-3 h2 a:visited  {
+	color: #5c6166; 
+}
+
+#page-featured-3 h2 a:hover, #page-featured-3 h2 a:active {
+	color: #000000; 
+}
+
+#page-featured-3 img {
+	border: #e3e3e3 solid 1px;
+	padding: 1px;
+	margin-bottom: 2px;
+}
+
+#page-featured-3 .column1, #page-featured-3 .column2, #page-featured-3 .column3, #page-featured-3 .column4 {
+	float: left;
+	width: 222px;
+	margin-right: 14px;
+	text-align: center;
+}
+
+#page-featured-3 .column4 {
+	margin-right: 0px;
+}
+
+#page-featured-3 .spacer {
+	clear: both;
+	height: 10px;
+}
+
+
+/* Row 4 */
+#page-featured-4 {
+	clear: both;
+	border: #e3e3e3 solid 1px;
+	padding: 20px 20px 15px 35px;
+	margin-bottom: 13px;
+}
+
+#page-featured-4 p {
+	color: #888a8c;
+	font-size: 1.2em;
+	line-height: 1.6em;
+}

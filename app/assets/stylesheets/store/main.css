@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*  Typography
+-----------------------------------------------------------------------------*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 75%;
+	line-height: 1.5em;
+	color: #5c6166;
+}
+
+blockquote {
+	color: #45494d;
+}
+
+
+
+/*  Margins and Padding
+-----------------------------------------------------------------------------*/
+p, h1, h2, h3, h4, h5, h6 {
+	padding: 0em;
+	margin: 0em;
+	margin-bottom: 1em;
+}
+
+
+
+/*  Headings
+-----------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Times New Roman", Times, serif;
+	line-height: 1em;
+	font-weight: normal;
+	margin-bottom: .35em;
+}
+
+h1 {
+	font-size: 2.4em;
+	color: #8a9199;
+	margin-bottom: .5em;
+}
+
+h1 a:link, h1 a:visited  {
+	text-decoration: none;
+	color: #8a9199; 
+}
+
+h1 a:hover, h1 a:active {
+	text-decoration: underline;
+	color: #8a9199; 
+}
+
+
+h2 {
+	font-size: 1.6em;
+	color: #2c4a6b;
+}
+
+h2 a:link, h2 a:visited  {
+	text-decoration: none;
+	color: #2c4a6b; 
+}
+
+h2 a:hover, h2 a:active {
+	text-decoration: underline;
+	color: #000000; 
+}
+
+
+h3 {
+	font-size: 1.4em;
+	color: #5c6166;
+}
+
+h3 a:link, h3 a:visited  {
+	text-decoration: none;
+	color: #5c6166; 
+}
+
+h3 a:hover, h3 a:active {
+	text-decoration: underline;
+	color: #000000; 
+}
+
+
+h4 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #5c6166;
+}
+
+h4 a:link, h4 a:visited  {
+	text-decoration: none;
+	color: #5c6166; 
+}
+
+h4 a:hover, h4 a:active {
+	text-decoration: underline;
+	color: #000000; 
+}
+
+
+
+/*  Links
+-----------------------------------------------------------------------------*/
+
+a:link {
+	color: #0f4885; 
+	text-decoration: none;
+}
+
+a:visited {
+    color: #0f4885; 
+	text-decoration: none;
+}
+
+a:hover {
+     color: #000000; 
+	text-decoration: underline;
+}
+
+a:active {
+     color: #000000; 
+	text-decoration: underline;
+}
+
+
+
+
+/*  Images
+-----------------------------------------------------------------------------*/
+
+img {
+     border: 0em; 
+}
+
+
+
+/*  Forms
+-----------------------------------------------------------------------------*/
+
+form {
+	padding: 0em;
+	margin: 0em;
+}
+
+
+
+/*  Misc
+-----------------------------------------------------------------------------*/
+
+.misc-clear {
+	clear: both;
+}
+
+.bodytextsmall {
+	font-size: .9em;
+	color: #aaaeb3;
+}
+
+.text-lineheight-less {
+	line-height: 1.125em;
+}
