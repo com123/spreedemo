@@ -44,9 +44,8 @@ GIT
     spree_reviews (1.0.0)
       spree_core (~> 2.0.0.beta)
 
-GIT
-  remote: https://github.com/mahinder/spreemodif.git
-  revision: 19608c7ecd24933976b092eb8cd3c5d3e381aec0
+PATH
+  remote: ../spree
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
