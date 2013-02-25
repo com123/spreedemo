@@ -20,7 +20,7 @@ a.carousel-control{
   display: none;
 }
 div.carousel{
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .container [class*="span"] {
   margin-left: 0px;
