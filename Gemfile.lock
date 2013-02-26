@@ -46,7 +46,7 @@ GIT
 
 GIT
   remote: https://github.com/mahinder/spreemodif.git
-  revision: 7b6a77767d097f618905c76af1838387d05ebb16
+  revision: d29879dd64459f35ac889155f5b3d03f6bea3d22
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
