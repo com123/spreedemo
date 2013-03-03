@@ -22,12 +22,16 @@ $(document).ready(function() {
 
 $('.assignrep').change(function() {
       id =  $(this).val();
+var assign = ""
+
 if(id != "")
 {
-  $(this).parent().next().find('select').prop('disabled', true);		
+  $(this).parent().next().find('select').prop('disabled', true);
+  assign = "Order successfully assigned"			
 }else
 {
-$(this).parent().next().find('select').prop('disabled', false);	
+$(this).parent().next().find('select').prop('disabled', false);
+assign = "Order assigment remove"	
 }
       order_id = $(this).attr('data_order');
       name = $(this).attr('name'); 
@@ -41,7 +45,7 @@ $(this).parent().next().find('select').prop('disabled', false);
             success: function(data, textStatus, jqXHR) {
                 if(data.valid)
    		{
-		  alert("Order id successfully assigned")
+		  alert(assign)
 			}else{
 		  alert("Some Thing Went Wrong ") 				
 		}
@@ -59,13 +63,15 @@ $(this).parent().next().find('select').prop('disabled', false);
 
     $('.assignpartener').change(function() {
       id =  $(this).val();
-
+var assign = ""
 if(id != "")
 {
   $(this).parent().prev('td').find('select').prop('disabled', true);		
+  assign = "Order successfully assigned"
 }else
 {
-$(this).parent().prev('td').find('select').prop('disabled', false);	
+$(this).parent().prev('td').find('select').prop('disabled', false);
+assign = "Order assigment remove"	
 }
 
       order_id = $(this).attr('data_order');
@@ -80,7 +86,7 @@ $(this).parent().prev('td').find('select').prop('disabled', false);
             success: function(data, textStatus, jqXHR) {
                 if(data.valid)
    		{
-		  alert("Order id successfully assigned")
+		  alert(assign)
 			}else{
 		  alert("Some Thing Went Wrong ") 				
 		}
