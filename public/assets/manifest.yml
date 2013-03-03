@@ -35,10 +35,10 @@ ribbon-right.png: ribbon-right-1645b634f27d43cd39df88f5071bd53e.png
 ribbon-right/index.png: ribbon-right-1645b634f27d43cd39df88f5071bd53e.png
 ss.jpg: ss-9654e61082e1da614f3fe173a49fd4f0.jpg
 ss/index.jpg: ss-9654e61082e1da614f3fe173a49fd4f0.jpg
-admin/all.js: admin/all-2e2cc757abcca4937950b9cd4c947787.js
-admin/all/index.js: admin/all-2e2cc757abcca4937950b9cd4c947787.js
-application.js: application-26c4869dfb9066c18596e95648156430.js
-application/index.js: application-26c4869dfb9066c18596e95648156430.js
+admin/all.js: admin/all-51924430763bd4bb269b434943babd2b.js
+admin/all/index.js: admin/all-51924430763bd4bb269b434943babd2b.js
+application.js: application-a51625efd1536a3e80e7a0e324f46ec0.js
+application/index.js: application-a51625efd1536a3e80e7a0e324f46ec0.js
 store/all.js: store/all-c0573487c2dfa8aa6ff8deffc6bcfd71.js
 store/all/index.js: store/all-c0573487c2dfa8aa6ff8deffc6bcfd71.js
 admin/all.css: admin/all-e2e7f68835dfc93bd28421628a4f8026.css
