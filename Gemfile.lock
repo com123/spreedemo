@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/mahinder/spree_reviews.git
+  revision: 20972b9b464a7ed389ad9ccc361d90d30c2bf296
+  specs:
+    spree_reviews (1.0.0)
+      spree_core (~> 2.0.0.beta)
+
+GIT
   remote: git://github.com/mahinder/spree_social.git
   revision: d5318d5d29142c60ff143f7b00b21ba0e7c865de
   specs:
@@ -37,16 +44,8 @@ GIT
       savon
       spree_core (~> 2.0.0.beta)
 
-GIT
-  remote: git://github.com/spree/spree_reviews.git
-  revision: 7954982eac0304685dd7ad17fca2935323ef6039
-  specs:
-    spree_reviews (1.0.0)
-      spree_core (~> 2.0.0.beta)
-
-GIT
-  remote: https://github.com/mahinder/spreemodif.git
-  revision: ea9aa7445cf412099b6e575c2f9018006bbeaf7e
+PATH
+  remote: ../spree
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -189,7 +188,7 @@ GEM
     httpauth (0.2.0)
     httpi (2.0.2)
       rack
-    i18n (0.6.1)
+    i18n (0.6.4)
     journey (1.0.4)
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
@@ -283,9 +282,9 @@ GEM
       actionpack (~> 3.0)
       activerecord (~> 3.0)
       polyamorous (~> 0.5.0)
-    rdoc (3.12.1)
+    rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.5)
+    sass (3.2.7)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -298,8 +297,8 @@ GEM
       nokogiri (>= 1.4.0)
       nori (~> 2.0.3)
       wasabi (~> 3.0.0)
-    select2-rails (3.3.0)
-      sass-rails (~> 3.2)
+    select2-rails (3.3.1)
+      sass-rails (>= 3.2)
       thor (~> 0.14)
     sprockets (2.2.2)
       hike (~> 1.2)
@@ -312,12 +311,12 @@ GEM
     therubyracer (0.10.2)
       libv8 (~> 3.3.10)
     thor (0.17.0)
-    tilt (1.3.3)
+    tilt (1.3.5)
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
     truncate_html (0.5.5)
-    tzinfo (0.3.35)
+    tzinfo (0.3.36)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
