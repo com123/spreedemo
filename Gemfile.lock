@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mahinder/spree_reviews.git
-  revision: 20972b9b464a7ed389ad9ccc361d90d30c2bf296
+  revision: 7d4cf794847f2dc97ed21f6ffd77dd3290a7a9b0
   specs:
     spree_reviews (1.0.0)
       spree_core (~> 2.0.0.beta)
@@ -44,8 +44,9 @@ GIT
       savon
       spree_core (~> 2.0.0.beta)
 
-PATH
-  remote: ../spree
+GIT
+  remote: https://github.com/mahinder/spreemodif.git
+  revision: 0b3ea2e4a29b568374232fda63fb4c9f852fc25f
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
