@@ -1,7 +1,7 @@
 source "http://bundler-api.herokuapp.com"
 
 gem 'rails', '3.2.11'
-gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise.git'	
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :production do
@@ -20,6 +20,7 @@ gem "spree_customrole", :path => "spree_customrole"
 #gem "spree_social", :git => "git://github.com/spree/spree_social.git" 
 gem "spree_social", :git => "git://github.com/mahinder/spree_social.git"
 gem 'spree_gateway', :git => 'git://github.com/spree/spree_gateway.git' 
+gem 'spree_auth_devise', :git => 'git://github.com/spree/spree_auth_devise.git'	
 #gem "spree_social", :git => "git://github.com/spree/spree_social.git"
 # Gems used only for assets and not required
 # in production environments by default.
