@@ -9,7 +9,10 @@ Spree3::Application.routes.draw do
           # The priority is based upon order of creation:
   # first created -> highest priority.
   get 'custom/assign_persons'
-	
+  get 'general/about_us'
+get 'general/contact_us'
+get 'general/services'
+get 'general/private_polices'	
 
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action

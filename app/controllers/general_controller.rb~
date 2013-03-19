@@ -1,0 +1,24 @@
+class GeneralController < ApplicationController
+
+def about_us
+
+
+end
+
+
+
+def contact_us
+
+end
+
+
+def services
+
+end
+
+
+def private_polices
+
+end
+
+end
