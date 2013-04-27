@@ -21,4 +21,19 @@ def private_polices
 
 end
 
+
+def faq
+
+end
+
+
+def affilates
+
+end
+
+
+def donation
+
+end
+
 end

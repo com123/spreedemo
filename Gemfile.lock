@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: https://github.com/mahinder/spreemodif.git
-  revision: 1c4de9212de5da91ec3880ed884fda71fd7ab82f
+  revision: 74e9760896ef1474dd0a51a17c33d646632da625
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -322,7 +322,7 @@ GEM
     uglifier (2.0.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
-    uuidtools (2.1.3)
+    uuidtools (2.1.4)
     versioncake (0.4.0)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
