@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/mahinder/spree_email_to_friend.git
+  revision: 12b5115aea296665e6ef2fd3aca1bd83d5b3078a
+  specs:
+    spree_email_to_friend (1.3)
+
+GIT
   remote: git://github.com/mahinder/spree_reviews.git
   revision: bf6269147fdea483a58c641d784351d9994f1dc7
   specs:
@@ -286,6 +292,7 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    recaptcha (0.3.5)
     sass (3.2.8)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -342,11 +349,13 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.11)
+  recaptcha
   sass-rails (~> 3.2.3)
   spree!
   spree_auth_devise!
   spree_comments!
   spree_customrole!
+  spree_email_to_friend!
   spree_gateway!
   spree_reviews!
   spree_social!

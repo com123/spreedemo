@@ -10,6 +10,8 @@ end
 group :development do 
    gem 'sqlite3'
 end
+gem 'spree_email_to_friend', :git => 'git://github.com/mahinder/spree_email_to_friend.git'
+gem "recaptcha", :require => "recaptcha/rails"
 gem 'execjs',  :platforms => :ruby
 gem 'therubyracer', '0.10.2', :platforms => :ruby
 gem 'spree', :git => 'https://github.com/mahinder/spreemodif.git'
