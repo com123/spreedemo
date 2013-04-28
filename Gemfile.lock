@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mahinder/spree_email_to_friend.git
-  revision: 12b5115aea296665e6ef2fd3aca1bd83d5b3078a
+  revision: 9a37e2efd45bd2fa7e00f6a14c1e4f1cb5838117
   specs:
     spree_email_to_friend (1.3)
 
