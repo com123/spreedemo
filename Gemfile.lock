@@ -53,7 +53,7 @@ GIT
 
 GIT
   remote: https://github.com/mahinder/spreemodif.git
-  revision: 09bf420801210a32bd3f9d6a9bae8273e8fa5cd8
+  revision: 04562e8f48a3e01586bdcbc7963f8da335df3691
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -286,7 +286,7 @@ GEM
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
     rake (10.0.4)
-    ransack (0.7.2)
+    ransack (0.7.3)
       actionpack (~> 3.0)
       activerecord (~> 3.0)
       polyamorous (~> 0.5.0)
