@@ -1,8 +1,18 @@
-<div id="social_nav" style = "background: blue;">
-  <h6><%= t(:bookmark_or_share_this) %></h6>
-  <ul>
+<style>
+#social_nav ul li {
+padding : 0px
+}
+#social_nav {
+  width: 400px !important;
+  height: 40px !important;
+}
+</style>
+
+<div id="social_nav" style = "background: blue;,width: 401px; , height: 40px;">
+  
+ <ul>
   <% if Spree::Config.facebook_button %>
-      <li class="facebook">
+      <li class="facebook" style = "width: 228px;">
         <%= render :partial => 'spree/social/facebook' %>
       </li>
     <% end %>
@@ -17,28 +27,6 @@
         <%= render :partial => 'spree/social/gplus' %>
       </li>
     <% end %>
-    
-    <% if Spree::Config.pinterest_button %>
-      <li class="pinterest">
-        <%= render :partial => 'spree/social/pinterest' %>
-      </li>
-    <% end %>
-    <% if Spree::Config.reddit_button %>
-      <li class="reddit">
-        <%= render :partial => 'spree/social/reddit' %>
-      </li>
-    <% end %>
-    <% if Spree::Config.tumblr_button %>
-      <li class="tumblr">
-        <%= render :partial => 'spree/social/tumblr' %>
-      </li>
-    <% end %>
-    <% if Spree::Config.delicious_button %>
-      <li class="delicious">
-        <%= render :partial => 'spree/social/delicious' %>
-      </li>
-    <% end %>
-    
   </ul>
  
 </div>
