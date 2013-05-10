@@ -2,17 +2,27 @@
 #social_nav ul li {
 padding : 0px
 }
+.fb_ltr{
+width:280px !important;
+}
+.fb-like fb_edge_widget_with_comment fb_iframe_widget>span {
+width:0px !important;
+
+}
 #social_nav {
-  width: 400px !important;
+  width: 451px !important;
   height: 40px !important;
+}
+span#u_0_3{
+color : white !important;
 }
 </style>
 
-<div id="social_nav" style = "background: blue;,width: 401px; , height: 40px;">
+<div id="social_nav" style="background: blue;">
   
  <ul>
   <% if Spree::Config.facebook_button %>
-      <li class="facebook" style = "width: 228px;">
+      <li class="facebook" style = "width: 280px;">
         <%= render :partial => 'spree/social/facebook' %>
       </li>
     <% end %>
