@@ -13,8 +13,8 @@ end
 gem 'spree_email_to_friend', :git => 'git://github.com/mahinder/spree_email_to_friend.git'
 gem "recaptcha", :require => "recaptcha/rails"
 gem 'execjs',  :platforms => :ruby
-gem 'therubyracer', '0.10.2', :platforms => :ruby
-#gem 'spree', :git => 'https://github.com/mahinder/spreemodif.git'
+#gem 'therubyracer', '0.10.2', :platforms => :ruby
+gem 'spree', :git => 'https://github.com/mahinder/spreemodif.git'
 gem 'spree', :path => '../spree'
 gem 'spree_reviews', :git => 'git://github.com/mahinder/spree_reviews.git'
 gem "spree_comments",:git => 'git://github.com/spree/spree_comments.git'
