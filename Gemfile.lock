@@ -51,9 +51,8 @@ GIT
       savon (~> 1.2)
       spree_core
 
-GIT
-  remote: https://github.com/mahinder/spreemodif.git
-  revision: e2100d3098d8cceb91a4f2ea398545ad53b9129c
+PATH
+  remote: ../spree
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
