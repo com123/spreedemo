@@ -51,9 +51,8 @@ GIT
       savon (~> 1.2)
       spree_core
 
-GIT
-  remote: https://github.com/mahinder/spreemodif.git
-  revision: fd8a3dd50c9934c633192cdc65eb90d170b1b1b0
+PATH
+  remote: ../spree
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -162,7 +161,7 @@ GEM
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.1)
-      climate_control (>= 0.0.3, < 1.0)
+      climate_control (< 1.0, >= 0.0.3)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -289,7 +288,7 @@ GEM
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
     rake (10.0.4)
-    ransack (0.7.3)
+    ransack (0.7.2)
       actionpack (~> 3.0)
       activerecord (~> 3.0)
       polyamorous (~> 0.5.0)
