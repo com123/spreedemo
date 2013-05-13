@@ -53,7 +53,7 @@ GIT
 
 GIT
   remote: https://github.com/mahinder/spreemodif.git
-  revision: 033faf2719405718901db7513bf9fab35ee160ac
+  revision: 4d48a2230202a825c10c7155ef859559285c2b25
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -202,7 +202,7 @@ GEM
     jquery-rails (2.2.1)
       railties (< 5.0, >= 3.0)
       thor (< 2.0, >= 0.14)
-    json (1.7.7)
+    json (1.8.0)
     jwt (0.1.8)
       multi_json (>= 1.5)
     kaminari (0.13.0)
