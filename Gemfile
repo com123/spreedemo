@@ -10,6 +10,8 @@ end
 group :development do 
    gem 'sqlite3'
 end
+
+gem 'debugger'
 gem 'spree_email_to_friend', :git => 'git://github.com/mahinder/spree_email_to_friend.git'
 gem "recaptcha", :require => "recaptcha/rails"
 gem 'execjs',  :platforms => :ruby
@@ -22,6 +24,7 @@ gem "spree_customrole", :path => "spree_customrole"
 #gem "spree_social", :git => "git://github.com/spree/spree_social.git" 
 gem "spree_social", :git => "git://github.com/mahinder/spree_social.git"
 gem 'spree_gateway', :git => 'git://github.com/spree/spree_gateway.git' 
+gem 'devise-encryptable'
 gem 'spree_auth_devise', :git => 'git://github.com/mahinder/spree_auth_devise.git' , :branch => '1-3-stable'	
 #gem "spree_social", :git => "git://github.com/spree/spree_social.git"
 # Gems used only for assets and not required
