@@ -50,8 +50,9 @@ GIT
       savon (~> 1.2)
       spree_core
 
-PATH
-  remote: ../spree
+GIT
+  remote: https://github.com/mahinder/spreemodif.git
+  revision: 3a867134a8f2afad7a8c9c528d228c7eafb73dda
   specs:
     spree (2.0.0.beta)
       spree_api (= 2.0.0.beta)
@@ -314,8 +315,8 @@ GEM
       nokogiri (>= 1.4.0)
       nori (~> 1.1.0)
       wasabi (~> 2.5.0)
-    select2-rails (3.3.2)
-      sass-rails (>= 3.2)
+    select2-rails (3.4.1)
+      sass-rails
       thor (~> 0.14)
     sprockets (2.2.2)
       hike (~> 1.2)
