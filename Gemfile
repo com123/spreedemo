@@ -15,7 +15,7 @@ gem 'debugger'
 gem 'spree_email_to_friend', :git => 'git://github.com/com123/spree_email_to_friend.git'
 gem "recaptcha", :require => "recaptcha/rails"
 gem 'execjs',  :platforms => :ruby
-gem "spree_social", :git => "git://github.com/com123/spree_social.git"
+gem "spree_social", :git => "git://github.com/com123/spree_social-1.git"
 gem 'therubyracer', '0.10.2', :platforms => :ruby
 
 #gem 'spree', :path => '../spree'
