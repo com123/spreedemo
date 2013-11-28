@@ -1,4 +1,4 @@
-source "http://bundler-api.herokuapp.com"
+source "http://rubygems.org"
 
 gem 'rails', '3.2.11'
 
@@ -9,9 +9,10 @@ group :production do
 end
 group :development do 
    gem 'sqlite3'
+   gem 'debugger'
 end
 gem 'spree', :git => 'https://github.com/com123/spreemodif.git'
-gem 'debugger'
+
 gem 'spree_email_to_friend', :git => 'git://github.com/com123/spree_email_to_friend.git'
 gem "recaptcha", :require => "recaptcha/rails"
 gem 'execjs',  :platforms => :ruby

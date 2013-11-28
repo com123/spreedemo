@@ -88,7 +88,7 @@ GIT
       spree_core (= 2.0.0.beta)
 
 GEM
-  remote: http://bundler-api.herokuapp.com/
+  remote: http://rubygems.org/
   specs:
     actionmailer (3.2.11)
       actionpack (= 3.2.11)
