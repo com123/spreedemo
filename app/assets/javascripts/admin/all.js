@@ -9,10 +9,10 @@
 
 //= require admin/spree_core
 //= require admin/spree_promo
-//= require admin/spree_social_products
+//require admin/spree_social_products
 //= require_tree .
 
-//= require admin/spree_customrole
+// require admin/spree_customrole
 //= require admin/spree_social
 
 $(document).ready(function() {
