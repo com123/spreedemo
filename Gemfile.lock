@@ -154,6 +154,7 @@ GEM
     coffee-script-source (1.6.3)
     colorize (0.6.0)
     columnize (0.3.6)
+    daemon_controller (1.1.7)
     debugger (1.6.2)
       columnize (>= 0.3.1)
       debugger-linecache (~> 1.2.0)
@@ -244,6 +245,10 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
+    passenger (4.0.26)
+      daemon_controller (>= 1.1.0)
+      rack
+      rake (>= 0.8.1)
     pg (0.17.0)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
@@ -326,6 +331,7 @@ DEPENDENCIES
   devise-encryptable
   execjs
   jquery-rails
+  passenger
   pg
   rails (= 3.2.11)
   recaptcha
